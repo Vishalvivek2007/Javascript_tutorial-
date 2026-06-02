@@ -1,5 +1,10 @@
-let currentResult =0;
+const defaultResult = 0;
+let currentResult = defaultResult;
 
-currrentResult = currentResult + 10;
 
-outputResult(currentResult, '');
+function add() {
+  currentResult = currentResult + parseInt(userInput.value);
+  outputResult(currentResult, '');
+}
+
+addBtn.addEventListener('click', add);
