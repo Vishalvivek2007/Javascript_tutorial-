@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color:rgb(255, 255, 255);
+  border:none;
+  margin:0; 
+  font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+}
+
+div{
+  
+  border-radius:10px;
+}
+.rootdiv{
+  height:100vh;
+  width:100vw;
+  border:0.5px solid black;
+  display:flex;
+  flex-direction:row;
+  
+}
+
+.left-main-div{
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  width:100%;
+  border:0.5px solid black;
+  
+}
+
+
+.right-main-div{
+  height:100%;
+  width:100%;
+  border:0.5px solid black;
+}
+
+.left-top-div{
+  padding:2px;
+  text-align:justify;
+  justify-content:center;
+  height:100%;
+  width:100%;
+  border:0.5px solid black;
+}
+
+.left-top-div img{
+  margin-top:10px;
+  margin-left:auto;
+  margin-right:auto;
+  width:75%;
+  object-fit:cover;
+  height:300px;
+  margin-bottom:10px;
+}
+.left-bottom-div{
+  display:flex;
+  flex-direction:row;
+  height:100%;
+  width:100%;
+  border:0.5px solid black;
+}
+
+.left-bottom-left{
+  padding:2px;
+  height:100%;
+  width:100%;
+  border:0.5px solid black;
+  overflow:auto;
+ 
+}
+.left-bottom-right{
+  height:100%;
+  width:100%;
+  border:0.5px solid black;
+  overflow:auto;
+ 
+}
+
+.right-main-div{
+  display:flex;
+  flex-direction:column;
+}
+
+.right-div{
+  padding:2px;
+  height:100%;
+  width:100%;
+  border:0.5px solid black;
+  overflow:auto;
+  
+}
+
+img{
+  display:block;
+  max-width:100%;
+  border-radius:10px;
+}
+
+.right-div img,
+.left-bottom-left img,
+.left-bottom-right img{
+  float :left;
+  width:220px;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  height:120px;
+}
+
+p{
+  margin-left:10px;
+  margin-right:10px;
+}
